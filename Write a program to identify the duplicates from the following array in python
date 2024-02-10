@@ -1,0 +1,7 @@
+list_a=int(input('Enter elements: '))
+tmp=[]
+for i in list_a:
+    if tmp.__contains__(i):
+        print (i)
+    else:
+        tmp.append(i)
